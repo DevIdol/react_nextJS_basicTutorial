@@ -1,0 +1,32 @@
+Arguments: 
+  /home/devjoker/.nvm/versions/node/v14.17.6/bin/node /home/devjoker/.yarn/bin/yarn.js add react react-dom next
+
+PATH: 
+  /home/devjoker/.yarn/bin:/home/devjoker/.config/yarn/global/node_modules/.bin:/home/devjoker/.nvm/versions/node/v14.17.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/devjoker/sdk/flutter/bin:/home/devjoker/.config/composer/vendor/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.6
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)
+
+npm manifest: 
+  {
+    "name": "react_nextjs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
